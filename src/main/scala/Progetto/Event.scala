@@ -2,12 +2,12 @@ package Progetto
 
 case class Event(
 actor: Actor,
-created_at: String,
-id: Int,
+created_at: java.sql.Timestamp,
+id: String,
 org: String ,
 payload: Payload,
-public: Boolean,
+publicFild: Boolean,
 repo: String,
-_type: String
+`type`: String
 
 )
